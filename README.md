@@ -58,7 +58,7 @@ Commands:
 
 simply run the following command in the terminal of your choice.
 
->Note: This is the Node CLI tool, thats why you need to have nodejs pre installed in your operating system for this tool to work.
+> Note: This is the Node CLI tool, thats why you need to have nodejs pre installed in your operating system for this tool to work.
 
 ```bash
 helper
@@ -66,7 +66,7 @@ helper
 
 will show about the app and usage.
 
-![basic usage of helper](/images/helper.png "helper command preview")
+![basic usage of helper](./images/helper.png)
 
 ### for help
 
@@ -76,7 +76,7 @@ helper --help
 
 will show the help for the `helper`:
 
-![help with options](/images/help-option.png "help option preview")
+![help with options](./images/help-option.png)
 
 or
 
@@ -86,7 +86,7 @@ help [command]
 
 will show the help for the `helper` or for the selected command if command provided:
 
-![help with options](/images/help-command.png "help option preview")
+![help with options](./images/help-command.png)
 
 Also we can know about the version information of the command with
 
@@ -102,7 +102,7 @@ help --version
 
 will show the version for the `helper`:
 
-![help with options](/images/version.png "help option preview")
+![help with options](./images/version.png)
 
 ### for generating a sample.env from project .env file
 
@@ -114,7 +114,7 @@ helper gen-env
 
 This will prompt you for the values required to generate the sample.env file such as your .env file name, your sample.env filename, the value template etc.
 
-![sample env generator](/images/gen-env.png "gen-env preview")
+![sample env generator](./images/gen-env.png)
 
 Also you can generate the output to only the screen and not actually write it to file.
 
@@ -134,7 +134,7 @@ or simply select `true` or say `Yes` while prompting if you use
 helper gen-env
 ```
 
-![sample env generator](/images/gen-env-console.png "gen-env preview")
+![sample env generator](./images/gen-env-console.png)
 
 This way you can verify the content before writting it to the file.
 
